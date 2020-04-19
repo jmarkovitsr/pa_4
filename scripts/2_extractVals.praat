@@ -19,13 +19,13 @@ form Select a participant
 endform
 
 # Where to save data
-outputDir$ = "../data/"
+outputDir$ = "C:/Users/jmarkovits/desktop/pa_4/"
 
 # Choose name for .csv file
 outFile$ = fileID$+".csv"
 
 # Where are the .wav and textgrid files located?
-filePath$ = "../recordings/"+fileID$+"/wavs/"
+filePath$ = "C:/Users/jmarkovits/desktop/pa_4/recordings/"+fileID$+"/wavs/"
 
 # -----------------------------------------------------------------------
 
