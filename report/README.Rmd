@@ -69,7 +69,7 @@ df = df %>%
 
 table = df %>%   
   group_by(language) %>%  
-  summarise(mean_f1 = mean(vot),  sd_f1 = sd(f1))
+  summarise(mean_f1 = mean(f1),  sd_f1 = sd(f1))
   
 kable(table, caption = "table")
 
@@ -96,6 +96,9 @@ kable(table, caption = "table")
 
 
 ```{r, 'plots', fig.retina=2}
+
+df = df %>%
+  mutate(type_language = ifelse(str_detect(language, 'bi'), 1, 0))
 
 df %>%
   ggplot(aes(x = f1, group = factor(type_language) , fill = factor (type_language))) +
