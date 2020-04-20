@@ -11,8 +11,8 @@ output: github_document
 # Overview
 
 <!-- 
-  Talk brielfy about what you did here 
-  Describe your hypotheses
+  The present report test the hypothesys that Spanish-English bilinguals produce longer VOT than English native speakers at voiceless stops consonants 
+. 
 -->
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -26,18 +26,20 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 # Prep
 
 ## Libraries
+cargar base de datos 
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
 
-```{r, 'load-libs', echo=T, warning=F, message=F}
-# Load libraries here
 
 ```
 
+
 ## Load data
 
-```{r, 'load-data'}
-# You need to get all the files in the 'data' directory and combine them
-# Check previous examples we did in class (hint: the day we did the ax 
-# experiment) or search for examples of stackoverflow.com
+``````{r, warning=FALSE, message=FALSE}
+
+df = read_csv("data/bi01.csv")
+
 
 ```
 
