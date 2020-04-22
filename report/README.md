@@ -1,15 +1,22 @@
 Programming assignment 4
 ================
 
-**Author**: Your name here  
-**Date**: Last update: 2020-04-20 18:37:14
+**Author**: Jennifer Markovits  
+**Date**: Last update: 2020-04-22 07:46:14
 
 # Overview
 
-<!-- 
- Kluender and Lotto (2014) stated that the longer the delay between release and the onset of voicing the higher the frequency of F1 onset since resonance frequency of F1 increases following release as the articulators move away from occlusion. Since VOT in Spanish are longer than English, it is possible to state that bilingual Spanish-English will have loger VOT than native English, therefore, the present report test the hypothesys that Spanish-English bilinguals produce higher F1  than English native speakers after the release of voiceless stop consonant.
-. 
--->
+Kluender and Lotto (2014) stated that the longer the delay between
+release and the onset of voicing, the higher the frequency of F1 onset
+since resonance frequency of F1 increases following release as the
+articulators move away from occlusion. Since VOT in Spanish are shorter
+than English, Spanish-bilingual can lengthen and shorten their VOTs
+depending on the language they are speaking. If I assume that bilingual
+participants of the current data think they are producing Spanish words,
+it is possible to state that bilingual Spanish-English will have shorter
+VOT than native English. Therefore, the present report test the
+hypothesis that Spanish-English bilinguals produce lower F1 than English
+native speakers after the release of a voiceless stop consonant.
 
 # Prep
 
@@ -243,21 +250,23 @@ summary(lm1)
 
 # Conclusion
 
-<!-- 
-Revisit your hypotheses (refer to plots, figures, tables, statistical tests, 
-etc.)
+A linear model was run to examine whether F1 mean differences between
+English native and bilingual Spanish- English were significant. The
+model did not find any significant relation between groups. Although
+table 1 showed differences in F1 mean by groups, and figures showed
+differences in formant frequency between groups, the plot showed an F1
+mean overlapping distribution by groups ( 1 bilingual, 0 native
+English), which is consistent with the LM results. In conclusion, the
+hypothesis is not supported, suggesting that it is necessary to look for
+other factors to explain differences in data.
 
-Reflect on the entire process. 
-What did you enjoy? What did you hate? What did you learn? 
-What would you do differently?
--->
+# Reflection
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-
-</br></br>
+I really enjoy learning coding, although it is very easy to get
+frustrate. However I think the learning curve is up. I really get
+ansious when I got problems setting paths. I had problems in Praat and
+also when I wanted to get the data in R. That part was really
+frustrating, since so far I though that I was able to, at least, loading
+the data in R, but I could not do it at the begining. But, it is very
+motivating when you find a solution, and I did. I learned use kable
+function, and mutate using str\_detect.
